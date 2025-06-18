@@ -1,0 +1,9 @@
+.thumbnail {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  object-position: right;
+  border: 2px;
+  border-color: red;
+
+}
