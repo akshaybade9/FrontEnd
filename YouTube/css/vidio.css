@@ -1,0 +1,81 @@
+
+
+  .vidio-image {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .user-image {
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .vidio-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 12px;
+  }
+
+  .vidio-author,
+  .vidio-stats {
+    width: 100%;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+  }
+
+  .vidio-author {
+     width: 100%;
+    margin-bottom: 4px;
+  }
+
+
+  .user-image-div {
+    margin-right: 10px;
+  }
+
+
+  .user-image-title-authors-tats-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+
+  @media (max-width: 750px) {
+    .page-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 751px) and (min-width: 999px) {
+    .page-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  
+  @media (min-width: 1000px) {
+    .page-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  .vidio-time{
+    position: absolute;
+    bottom: 25px;
+    right: 12px;
+    font-size: 16px;
+    padding: 2px 4px 2px 4px;
+    background-color: black;
+    color: white;
+  }
+
+  .vidio-relative-time{
+    position: relative;
+  }
